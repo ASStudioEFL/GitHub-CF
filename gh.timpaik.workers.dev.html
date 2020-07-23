@@ -173,15 +173,14 @@
                 pattern="^(?:(?:https|http):\/\/)?github\.com\/.+?\/.+?\/(?:releases|archive|blob)\/.+$" required>
             <span class="bar"></span>
         </label>
-        <input class="button" type="submit" value="下载">
+        <input class="button" type="submit" value="下载"><span></span>
         <div class="tips">
             <p>GitHub文件链接带不带协议头都可以，支持release、archive以及文件，右键复制出来的链接都是符合标准的。</p>
             <p>release、archive使用cf加速，文件会跳转至JsDelivr</p>
             <p>注意，不支持项目文件夹</p>
         </div>
         
-        <p style="position: sticky;top: calc(100% - 2.5em);">基于Cloudflare Workers | 由
-            <a href="https://efl.pd2.ink/">EFL</a>提供CloudFlare节点服务
+        <p style="position: sticky;top: calc(100% - 2.5em);">基于Cloudflare Workers
         </p>
     </form>
 </body>
